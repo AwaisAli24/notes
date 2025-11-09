@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Card from "./components/Card.jsx";
-import Search from "./components/Search.jsx";
-import Modal from "./components/Modal.jsx";
-import Header from "./components/Header.jsx";
+import Card from "./components/card";
+import Search from "./components/search";
+import Modal from "./components/modal";
+import Header from "./components/header";
 
 const App = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
